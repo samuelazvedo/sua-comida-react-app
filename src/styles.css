@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,400;8..144,600;8..144,800&family=Roboto:wght@900&display=swap');
+
+
+.swiper {
+  height: 100%;
+  margin-bottom: 20px;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgb(255, 255, 255);
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.bd-notification-title {
+  padding-top: 5px;
+  font-family: 'Roboto Flex', sans-serif;
+  font-weight: 800;
+  font-size: larger;
+}
+
+.bd-notification-price {
+  font-family: 'Roboto Flex', sans-serif;
+  font-weight: 800;
+  font-size: larger;
+}
+
+.bd-notification-details {
+  font-family: 'Roboto Flex', sans-serif;
+  font-weight: 200;
+  font-size: medium;
+  color: darkgray;
+}
+
+.price-real{
+    color: gold;
+    font-size: medium;
+}
+
+.ingredientes-bordered{
+  border: 1px solid rgb(234, 234, 234);
+  border-radius: 36px;
+  padding: 5px 5px 5px 5px;
+}
